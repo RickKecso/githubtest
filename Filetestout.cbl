@@ -15,14 +15,16 @@
             05  Test-Other-Stuff  PIC x(20).
         Working-Storage Section.
         PROCEDURE DIVISION.
-        Open output Testoutputfile.
-        Move '0001' to Test-Output-Key.
-        Move 'yaddayadda' to Test-Other-Stuff.
-        Write TestOutputRec.
-        Move '0002' to Test-Output-Key.
-        Move 'yaddayadda etc' to Test-Other-Stuff.
-        Move '0003' to Test-Output-Key.
-        Move 'yaddayadda theend' to Test-Other-Stuff.
-        Write TestOutputRec.
-        Close Testoutputfile.
-        STOP RUN.
+            Open output Testoutputfile.
+            Move '0001' to Test-Output-Key.
+            Move 'yaddayadda' to Test-Other-Stuff.
+            Write TestOutputRec.
+            Move '0002' to Test-Output-Key.
+            Move 'yaddayadda etc' to Test-Other-Stuff.
+            Write TestOutputRec.
+            Move '0003' to Test-Output-Key.
+            Move 'yaddayadda theend' to Test-Other-Stuff.
+       * added record 0003
+            Write TestOutputRec.
+            Close Testoutputfile.
+            STOP RUN.
