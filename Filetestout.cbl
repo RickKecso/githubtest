@@ -1,6 +1,7 @@
         Identification Division.
         PROGRAM-ID. Filetestout.
        * file test program
+       * added this update to show on github
         Environment Division.
         Input-Output section.
         File-Control.
@@ -20,6 +21,8 @@
         Write TestOutputRec.
         Move '0002' to Test-Output-Key.
         Move 'yaddayadda etc' to Test-Other-Stuff.
+        Move '0003' to Test-Output-Key.
+        Move 'yaddayadda theend' to Test-Other-Stuff.
         Write TestOutputRec.
         Close Testoutputfile.
         STOP RUN.
