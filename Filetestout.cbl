@@ -5,7 +5,8 @@
         Environment Division.
         Input-Output section.
         File-Control.
-        Select TestOutputFile assign to 'testoutputfile.txt'.
+        Select TestOutputFile assign to 'testoutputfile.txt'
+            Organization is line sequential.
         Data Division.
         File Section.
         FD TestOutputFile.
